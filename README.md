@@ -28,9 +28,9 @@ cd youtubeintro-api
 
 ### 2. Set up environment variables
 
-Create a `.env.local` file in the root of the project (this will be ignored by Git).
+Create a `.env` file in the root of the project (this will be ignored by Git).
 
-Example `.env.local` file:
+Example `.env` file:
 
 ```bash
 OPENAI_API_KEY=your-openai-api-key
@@ -55,7 +55,7 @@ Run the app in development mode:
 npm run dev
 ```
 
-This will start the server on port `3001` (or whatever port you've specified in `.env.local`).
+This will start the server on port `3001` (or whatever port you've specified in `.env`).
 
 You can now access the API at:
 
@@ -73,7 +73,7 @@ If you don't already have Docker installed, follow the installation instructions
 
 ### 2. Build and start the Docker containers
 
-Make sure you have a `.env.local` file for your environment variables as mentioned earlier.
+Make sure you have a `.env` file for your environment variables as mentioned earlier.
 
 Now, you can run the following commands to start the application with Docker:
 
