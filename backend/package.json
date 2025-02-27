@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for YouTube Intro Generation",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "start": "ts-node src/server.ts",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fuzzy-matcher": "^1.0.4",
+    "fuzzywuzzy": "^0.1.0",
+    "mammoth": "^1.4.2",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^8.0.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.85.4",
+    "string-similarity": "^4.0.4",
+    "ts-node": "^10.9.2",
+    "xlsx": "^0.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^16.11.6",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

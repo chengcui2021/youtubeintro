@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+
+# Mac specific files
+.AppleDouble
+.LSOverride
+
+# Heroku specific files
+*.env.heroku
+
+# Optional: If you're using TypeScript, add the following for TypeScript build output
+*.tsbuildinfo
